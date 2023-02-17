@@ -200,9 +200,13 @@ h1 {
 }
 /*
 @media only screen and (max-width: 1439px) {
-  .desktopladywithphoto {
+  .show-mobile-photo {
     display: none;
   }
 }
+1024 და ზემოთ როგორც წესი შეიძლება ჩაითვალოს დესკტოპად.
+1024 ის ქვემოთ, 768 პს 1024 მდე ტაბლეტია..
+კიდევ უფრო ქვემოთ მობაილი..
+
 need to do tablet size and descktop versions
 */
