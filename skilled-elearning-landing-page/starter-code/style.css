@@ -72,7 +72,7 @@ h1 {
 .get-started-colord {
   height: 56px;
   width: 167px;
-
+  margin-left: 16px;
   margin-top: 24px;
   border-radius: 31.5px;
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
@@ -166,7 +166,7 @@ h1 {
   color: #f74780;
   text-decoration: none;
 }
-/*es sul boloshi*/
+
 .footer-container {
   display: flex;
 
@@ -198,3 +198,11 @@ h1 {
   justify-content: space-around;
   align-items: center;
 }
+/*
+@media only screen and (max-width: 1439px) {
+  .desktopladywithphoto {
+    display: none;
+  }
+}
+need to do tablet size and descktop versions
+*/
