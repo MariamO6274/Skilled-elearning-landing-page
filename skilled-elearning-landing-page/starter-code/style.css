@@ -210,3 +210,12 @@ h1 {
 
 need to do tablet size and descktop versions
 */
+
+/* 650px and larger, then apply any of the rule sets here 
+@media only screen and (min-width: 650px) {
+  .container{
+    background-color: #f02aa6;
+  }
+}
+not working will get back with this later
+*/
