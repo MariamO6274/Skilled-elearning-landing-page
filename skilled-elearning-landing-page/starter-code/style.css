@@ -13,6 +13,23 @@ header {
   display: flex;
   justify-content: space-between;
 }
+.skilled-dark-logo {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 35px;
+  color: #13183f;
+}
+.dark-button {
+  background: #13183f;
+  border-radius: 28px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  height: 48px;
+  width: 140px;
+  border: none;
+}
 main {
   padding: 16px;
 }
@@ -24,6 +41,33 @@ footer {
   display: flex;
   gap: 25px;
   flex-direction: column;
+}
+.maximize-text-header {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 50px;
+  color: #13183f;
+}
+.maximize-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+}
+.header-button {
+  height: 56px;
+  width: 167px;
+  border-radius: 31.5px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  border-radius: 31.5px;
+  border: none;
+}
+.mobile-photo {
+  margin-left: -50px;
 }
 .card-containeres {
   display: flex;
