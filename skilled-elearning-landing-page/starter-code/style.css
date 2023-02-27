@@ -79,15 +79,21 @@ footer {
   height: 120px;
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
   border-radius: 10px;
-  /* aq qvemot shesacvlelia */
-  margin-bottom: 100px;
+  margin-bottom: 16px;
+}
+.card-header h2 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-top: 24px;
+  margin-left: 28px;
 }
 .card {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   gap: 24px;
-
   padding: 0 28px 32px 28px;
 }
 .card-text-container {
@@ -95,6 +101,48 @@ footer {
   flex-direction: column;
   gap: 16px;
 }
+.card h3 {
+  height: 25px;
+  width: 101px;
+  color: #13183f;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: left;
+}
+.card p {
+  height: 78px;
+  width: 286px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #83869a;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
 svg {
   margin-top: -50px;
 }
+
+/*
+@media only screen and (max-width: 1439px) {
+  .show-mobile-photo {
+    display: none;
+  }
+}
+1024 და ზემოთ როგორც წესი შეიძლება ჩაითვალოს დესკტოპად.
+1024 ის ქვემოთ, 768 პს 1024 მდე ტაბლეტია..
+კიდევ უფრო ქვემოთ მობაილი..
+
+need to do tablet size and descktop versions
+*/
+
+/* 650px and larger, then apply any of the rule sets here 
+@media only screen and (min-width: 650px) {
+  .container{
+    background-color: #f02aa6;
+  }
+}
+not working will get back with this later
+*/
