@@ -95,6 +95,8 @@ footer {
   flex-direction: column;
   gap: 24px;
   padding: 0 28px 32px 28px;
+  box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+  border-radius: 10px;
 }
 .card-text-container {
   display: flex;
@@ -120,9 +122,19 @@ footer {
   margin-top: 16px;
   margin-bottom: 24px;
 }
+.card-text-container button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #f74780;
+  border: none;
+  background: none;
+  font-family: "Plus Jakarta Sans";
+  text-align: left;
+}
 
 svg {
-  margin-top: -50px;
+  margin-top: -25px;
 }
 
 /*
