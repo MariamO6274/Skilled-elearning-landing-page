@@ -139,12 +139,15 @@ svg {
 footer {
   display: flex;
   justify-content: space-between;
+  margin-top: 80px;
+  height: 120px;
 }
 .skilled-light-logo {
   font-weight: 800;
   font-size: 28px;
   line-height: 35px;
   color: #ffffff;
+  margin-top: 43px;
 }
 .footer-button {
   background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
@@ -156,6 +159,7 @@ footer {
   height: 48px;
   width: 140px;
   border: none;
+  margin-top: 36px;
 }
 /*
 @media only screen and (max-width: 1439px) {
