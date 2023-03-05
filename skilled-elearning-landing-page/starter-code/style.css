@@ -7,6 +7,7 @@ body {
   background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 header {
   padding: 16px;
@@ -81,6 +82,14 @@ footer {
 }
 .mobile-photo {
   margin-left: -50px;
+}
+/* padding-top: 46px;
+max-width: 375px;
+display: flex;
+justify-content: center; */
+
+.tablet-photo {
+  display: none;
 }
 .card-containeres {
   display: flex;
@@ -191,18 +200,20 @@ footer {
     ),
     linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
 }
-/*
-@media only screen and (max-width: 1439px) {
-  .show-mobile-photo {
+
+/* tablet size  version*/
+@media screen and (min-width: 768px) {
+  .maximize {
+    flex-basis: 50%;
+  }
+  .mobile-photo {
     display: none;
   }
+  .tablet-photo {
+    display: block;
+    transform: translate(200px, -100px);
+  }
 }
-1024 და ზემოთ როგორც წესი შეიძლება ჩაითვალოს დესკტოპად.
-1024 ის ქვემოთ, 768 პს 1024 მდე ტაბლეტია..
-კიდევ უფრო ქვემოთ მობაილი..
-
-need to do tablet size and descktop versions
-*/
 
 /* 650px and larger, then apply any of the rule sets here 
 @media only screen and (min-width: 650px) {
