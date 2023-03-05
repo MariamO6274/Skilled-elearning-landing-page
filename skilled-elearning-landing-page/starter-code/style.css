@@ -108,7 +108,8 @@ footer {
   flex-direction: column;
   gap: 24px;
   width: 343px;
-  padding: 0 28px 32px 28px;
+  /* padding: 0 28px 32px 28px; */
+
   box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
   border-radius: 10px;
 }
@@ -116,6 +117,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  padding-left: 28px;
 }
 .card h3 {
   height: 25px;
@@ -146,10 +148,14 @@ footer {
   font-family: "Plus Jakarta Sans";
   text-align: left;
   cursor: pointer;
+  padding-bottom: 32px;
 }
 
-svg {
+.card-icons {
   margin-top: -25px;
+  height: 56px;
+  width: 56px;
+  margin-left: 28px;
 }
 footer {
   display: flex;
