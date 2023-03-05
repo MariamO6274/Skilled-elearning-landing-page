@@ -29,6 +29,10 @@ header {
   height: 48px;
   width: 140px;
   border: none;
+  cursor: pointer;
+}
+.dark-button:hover {
+  background: #666ca3;
 }
 main {
   padding: 16px;
@@ -65,6 +69,15 @@ footer {
   background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
   border-radius: 31.5px;
   border: none;
+  cursor: pointer;
+}
+.header-button:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
 }
 .mobile-photo {
   margin-left: -50px;
@@ -132,6 +145,7 @@ footer {
   background: none;
   font-family: "Plus Jakarta Sans";
   text-align: left;
+  cursor: pointer;
 }
 
 svg {
@@ -161,6 +175,15 @@ footer {
   width: 140px;
   border: none;
   margin-top: 36px;
+  cursor: pointer;
+}
+.footer-button:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
 }
 /*
 @media only screen and (max-width: 1439px) {
