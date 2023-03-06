@@ -82,6 +82,7 @@ footer {
 }
 .mobile-photo {
   margin-left: -50px;
+  width: 100%;
 }
 /* padding-top: 46px;
 max-width: 375px;
@@ -203,15 +204,45 @@ footer {
 
 /* tablet size  version*/
 @media screen and (min-width: 768px) {
+  body {
+    background-image: url("./assets/image-hero-tablet.png");
+    background-repeat: no-repeat;
+    background-position: top -58px right -288px;
+    background-size: 640px 640px;
+  }
+  header {
+    padding: 40px;
+  }
   .maximize {
+    width: 50%;
     flex-basis: 50%;
+    padding-top: 105px;
   }
   .mobile-photo {
     display: none;
   }
   .tablet-photo {
-    display: block;
-    transform: translate(200px, -100px);
+    transform: translate(25%, -100px);
+  }
+  .card-containeres {
+    margin-top: 186px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 11px;
+    /* padding: 40px; */
+  }
+  .card-header {
+    height: 259px;
+    width: 339px;
+
+    border-radius: 10px;
+  }
+  .card {
+    height: 259px;
+    width: 339px;
+
+    top: 24px;
+    border-radius: 10px;
   }
 }
 
