@@ -218,6 +218,13 @@ footer {
     flex-basis: 50%;
     padding-top: 105px;
   }
+  .maximize-text-header,
+  .maximize-text {
+    padding-left: 24px;
+  }
+  /* .header-button {
+    padding-left: 24px;
+  } */
   .mobile-photo {
     display: none;
   }
@@ -230,6 +237,7 @@ footer {
     flex-direction: row;
     gap: 11px;
     /* padding: 40px; */
+    row-gap: 56px;
   }
   .card-header {
     height: 259px;
@@ -240,9 +248,6 @@ footer {
   .card {
     height: 259px;
     width: 339px;
-
-    top: 24px;
-    border-radius: 10px;
   }
 }
 
