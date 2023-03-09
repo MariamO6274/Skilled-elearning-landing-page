@@ -280,12 +280,10 @@ footer {
     align-items: center;
   }
   .card-header {
-    /* width: 350px; */
     height: 322px;
     border-radius: 15px;
     background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
     flex-basis: 32%;
-    /* margin-top: -4px; */
   }
 
   .card-header h2 {
@@ -297,29 +295,26 @@ footer {
     color: #ffffff;
     margin-top: 28px;
     padding: 40px;
-    /* margin: 0; */
   }
   .card {
     display: flex;
     flex-direction: column;
-    margin-bottom: 60px;
-    padding: 12px;
-    height: 298px;
+    margin-bottom: 30px;
+    height: 322px;
     background: #ffffff;
     box-shadow: 0px 25px 50px rgb(6 22 141 / 4%);
     border-radius: 15px;
     flex-basis: 28%;
-    justify-content: space-around;
     align-items: baseline;
+    width: 350px;
   }
   .card p {
-    font-family: "Plus Jakarta Sans";
-    font-weight: 500;
-    font-style: normal;
-    font-size: 18px;
+    max-width: 200px;
     line-height: 28px;
     color: #83869a;
+    padding-bottom: 50px;
   }
+  
   footer {
     display: flex;
     justify-content: space-between;
